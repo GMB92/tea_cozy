@@ -1,0 +1,136 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+/************************header***************************/
+.header {
+  display: flex;
+  position: fixed;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  height: 69px;
+  z-index: 5;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+}
+
+.nav span {
+  text-decoration: underline;
+  display: inline-block;
+  padding-right: 10px;
+}
+
+.logo img {
+  height: 50px;
+  padding-left: 10px;
+}
+/*******************mission content***********************/
+.content {
+  display: inline-block;
+  padding-top: 69px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.mission{
+  background-image: url(../images/mission-background.jpg);
+  display:flex;
+  height: 700px;
+  width: 1200px;
+  z-index: 2;
+  justify-content: center;
+  align-items: center;
+}
+.missioheading
+{
+  background-color: black;
+  z-index: 4;
+  width: 1200px;
+}
+/****************** tea selection**********************/
+.tea{
+  padding-top: 50px;
+  margin: auto;
+  width: 1000px;
+  height: 700px;
+
+}
+.teachoice {
+  display: inline-block;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.fall, .rum, .donuts, .myrtle, .bedford {
+  display: inline-block;
+    width: 300px;
+    margin: 10px;
+}
+
+.fall_img, .rum_img, .donuts_img, .myrtle_img, .bedford_img {
+  display: block;
+  background-size: cover;
+  height: 200px;
+  align-items: center;
+}
+
+.fall span, .rum span, .donuts span, .myrtle span, .bedford span {
+display: block;
+padding: 5px;
+font-weight: bold;
+text-align: center;
+}
+
+.fall_img {background-image: url(../images/berryblitz.jpg);}
+.rum_img {background-image: url(../images/spiced-rum.jpg);}
+.donuts_img {background-image: url(../images/donut.jpg);}
+.myrtle_img {background-image: url(../images/myrtle-ave.jpg);}
+.bedford_img {background-image: url(../images/bedford-bizarre.jpg);}
+
+/* Location */
+
+
+.locationcontent {
+  display: inline-flex;
+  justify-content: space-around;
+  height: 500px;
+  width: 1200px;
+  background-image: url(../images/locations-background.jpg);
+  justify-content: center;
+  align-items: center;
+}
+
+.boxsetup {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.box {
+  width: 300px;
+  height: 260px;
+  background-color: black;
+  margin-right: 40px;
+  opacity: 1;
+}
+
+.box span {
+  display: block;
+  margin-top: 30px;
+}
+
+/***********Footer/copyright code***********/
+
+.contact {
+height: 200px;
+}
+.copyright {
+  padding-left: 20px;
+  text-align: left;
+}
